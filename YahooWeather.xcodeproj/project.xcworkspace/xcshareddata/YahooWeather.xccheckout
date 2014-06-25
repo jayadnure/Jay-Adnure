@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>EA94AE9F-9B0E-4A97-BB07-DB567BD93DC0</string>
+	<key>IDESourceControlProjectName</key>
+	<string>YahooWeather</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>92C9FD2C-D1EF-45F9-A70B-0092C22CA763</key>
+		<string>https://github.com/jayadnure/Jay-Adnure.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>YahooWeather.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>92C9FD2C-D1EF-45F9-A70B-0092C22CA763</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/jayadnure/Jay-Adnure.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>92C9FD2C-D1EF-45F9-A70B-0092C22CA763</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>92C9FD2C-D1EF-45F9-A70B-0092C22CA763</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Jay Adnure</string>
+		</dict>
+	</array>
+</dict>
+</plist>

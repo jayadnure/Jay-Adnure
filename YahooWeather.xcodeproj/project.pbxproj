@@ -1,0 +1,680 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01828FB41952F0600016DFF1 /* YWForecatsCustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 01828FB31952F0600016DFF1 /* YWForecatsCustomCell.m */; };
+		01828FB71952F0B00016DFF1 /* YWDayInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 01828FB61952F0B00016DFF1 /* YWDayInfo.m */; };
+		01828FBB1953061E0016DFF1 /* YWDropDownController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01828FB91953061E0016DFF1 /* YWDropDownController.m */; };
+		01828FBC1953061E0016DFF1 /* YWDropDownController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01828FBA1953061E0016DFF1 /* YWDropDownController.xib */; };
+		01831D4319580D4A00ED3BBC /* bright_sun.png in Resources */ = {isa = PBXBuildFile; fileRef = 01831D4219580D4A00ED3BBC /* bright_sun.png */; };
+		01831D451958203500ED3BBC /* Best-Weather-Apps.png in Resources */ = {isa = PBXBuildFile; fileRef = 01831D441958203500ED3BBC /* Best-Weather-Apps.png */; };
+		01831D47195820A900ED3BBC /* app_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 01831D46195820A900ED3BBC /* app_icon.png */; };
+		01831D491958225500ED3BBC /* app_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 01831D481958225500ED3BBC /* app_icon@2x.png */; };
+		01831DDB195835C900ED3BBC /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 01831DAC195835C900ED3BBC /* 1.png */; };
+		01831DDC195835C900ED3BBC /* 10.png in Resources */ = {isa = PBXBuildFile; fileRef = 01831DAD195835C900ED3BBC /* 10.png */; };
+		01831DDD195835C900ED3BBC /* 11.png in Resources */ = {isa = PBXBuildFile; fileRef = 01831DAE195835C900ED3BBC /* 11.png */; };
+		01831DDE195835C900ED3BBC /* 12.png in Resources */ = {isa = PBXBuildFile; fileRef = 01831DAF195835C900ED3BBC /* 12.png */; };
+		01831DDF195835C900ED3BBC /* 13.png in Resources */ = {isa = PBXBuildFile; fileRef = 01831DB0195835C900ED3BBC /* 13.png */; };
+		01831DE0195835C900ED3BBC /* 14.png in Resources */ = {isa = PBXBuildFile; fileRef = 01831DB1195835C900ED3BBC /* 14.png */; };
+		01831DE1195835C900ED3BBC /* 15.png in Resources */ = {isa = PBXBuildFile; fileRef = 01831DB2195835C900ED3BBC /* 15.png */; };
+		01831DE2195835C900ED3BBC /* 16.png in Resources */ = {isa = PBXBuildFile; fileRef = 01831DB3195835C900ED3BBC /* 16.png */; };
+		01831DE3195835C900ED3BBC /* 17.png in Resources */ = {isa = PBXBuildFile; fileRef = 01831DB4195835C900ED3BBC /* 17.png */; };
+		01831DE4195835C900ED3BBC /* 18.png in Resources */ = {isa = PBXBuildFile; fileRef = 01831DB5195835C900ED3BBC /* 18.png */; };
+		01831DE5195835C900ED3BBC /* 19.png in Resources */ = {isa = PBXBuildFile; fileRef = 01831DB6195835C900ED3BBC /* 19.png */; };
+		01831DE6195835C900ED3BBC /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 01831DB7195835C900ED3BBC /* 2.png */; };
+		01831DE7195835C900ED3BBC /* 20.png in Resources */ = {isa = PBXBuildFile; fileRef = 01831DB8195835C900ED3BBC /* 20.png */; };
+		01831DE8195835C900ED3BBC /* 21.png in Resources */ = {isa = PBXBuildFile; fileRef = 01831DB9195835C900ED3BBC /* 21.png */; };
+		01831DE9195835C900ED3BBC /* 22.png in Resources */ = {isa = PBXBuildFile; fileRef = 01831DBA195835C900ED3BBC /* 22.png */; };
+		01831DEA195835C900ED3BBC /* 23.png in Resources */ = {isa = PBXBuildFile; fileRef = 01831DBB195835C900ED3BBC /* 23.png */; };
+		01831DEB195835C900ED3BBC /* 24.png in Resources */ = {isa = PBXBuildFile; fileRef = 01831DBC195835C900ED3BBC /* 24.png */; };
+		01831DEC195835C900ED3BBC /* 25.png in Resources */ = {isa = PBXBuildFile; fileRef = 01831DBD195835C900ED3BBC /* 25.png */; };
+		01831DED195835C900ED3BBC /* 26.png in Resources */ = {isa = PBXBuildFile; fileRef = 01831DBE195835C900ED3BBC /* 26.png */; };
+		01831DEE195835C900ED3BBC /* 27.png in Resources */ = {isa = PBXBuildFile; fileRef = 01831DBF195835C900ED3BBC /* 27.png */; };
+		01831DEF195835C900ED3BBC /* 28.png in Resources */ = {isa = PBXBuildFile; fileRef = 01831DC0195835C900ED3BBC /* 28.png */; };
+		01831DF0195835C900ED3BBC /* 29.png in Resources */ = {isa = PBXBuildFile; fileRef = 01831DC1195835C900ED3BBC /* 29.png */; };
+		01831DF1195835C900ED3BBC /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 01831DC2195835C900ED3BBC /* 3.png */; };
+		01831DF2195835C900ED3BBC /* 30.png in Resources */ = {isa = PBXBuildFile; fileRef = 01831DC3195835C900ED3BBC /* 30.png */; };
+		01831DF3195835C900ED3BBC /* 31.png in Resources */ = {isa = PBXBuildFile; fileRef = 01831DC4195835C900ED3BBC /* 31.png */; };
+		01831DF4195835C900ED3BBC /* 32.png in Resources */ = {isa = PBXBuildFile; fileRef = 01831DC5195835C900ED3BBC /* 32.png */; };
+		01831DF5195835C900ED3BBC /* 33.png in Resources */ = {isa = PBXBuildFile; fileRef = 01831DC6195835C900ED3BBC /* 33.png */; };
+		01831DF6195835C900ED3BBC /* 34.png in Resources */ = {isa = PBXBuildFile; fileRef = 01831DC7195835C900ED3BBC /* 34.png */; };
+		01831DF7195835C900ED3BBC /* 35.png in Resources */ = {isa = PBXBuildFile; fileRef = 01831DC8195835C900ED3BBC /* 35.png */; };
+		01831DF8195835C900ED3BBC /* 36.png in Resources */ = {isa = PBXBuildFile; fileRef = 01831DC9195835C900ED3BBC /* 36.png */; };
+		01831DF9195835C900ED3BBC /* 37.png in Resources */ = {isa = PBXBuildFile; fileRef = 01831DCA195835C900ED3BBC /* 37.png */; };
+		01831DFA195835C900ED3BBC /* 38.png in Resources */ = {isa = PBXBuildFile; fileRef = 01831DCB195835C900ED3BBC /* 38.png */; };
+		01831DFB195835C900ED3BBC /* 39.png in Resources */ = {isa = PBXBuildFile; fileRef = 01831DCC195835C900ED3BBC /* 39.png */; };
+		01831DFC195835C900ED3BBC /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 01831DCD195835C900ED3BBC /* 4.png */; };
+		01831DFD195835C900ED3BBC /* 40.png in Resources */ = {isa = PBXBuildFile; fileRef = 01831DCE195835C900ED3BBC /* 40.png */; };
+		01831DFE195835C900ED3BBC /* 41.png in Resources */ = {isa = PBXBuildFile; fileRef = 01831DCF195835C900ED3BBC /* 41.png */; };
+		01831DFF195835C900ED3BBC /* 42.png in Resources */ = {isa = PBXBuildFile; fileRef = 01831DD0195835C900ED3BBC /* 42.png */; };
+		01831E00195835C900ED3BBC /* 43.png in Resources */ = {isa = PBXBuildFile; fileRef = 01831DD1195835C900ED3BBC /* 43.png */; };
+		01831E01195835C900ED3BBC /* 44.png in Resources */ = {isa = PBXBuildFile; fileRef = 01831DD2195835C900ED3BBC /* 44.png */; };
+		01831E02195835C900ED3BBC /* 45.png in Resources */ = {isa = PBXBuildFile; fileRef = 01831DD3195835C900ED3BBC /* 45.png */; };
+		01831E03195835C900ED3BBC /* 46.png in Resources */ = {isa = PBXBuildFile; fileRef = 01831DD4195835C900ED3BBC /* 46.png */; };
+		01831E04195835C900ED3BBC /* 47.png in Resources */ = {isa = PBXBuildFile; fileRef = 01831DD5195835C900ED3BBC /* 47.png */; };
+		01831E05195835C900ED3BBC /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = 01831DD6195835C900ED3BBC /* 5.png */; };
+		01831E06195835C900ED3BBC /* 6.png in Resources */ = {isa = PBXBuildFile; fileRef = 01831DD7195835C900ED3BBC /* 6.png */; };
+		01831E07195835C900ED3BBC /* 7.png in Resources */ = {isa = PBXBuildFile; fileRef = 01831DD8195835C900ED3BBC /* 7.png */; };
+		01831E08195835C900ED3BBC /* 8.png in Resources */ = {isa = PBXBuildFile; fileRef = 01831DD9195835C900ED3BBC /* 8.png */; };
+		01831E09195835C900ED3BBC /* 9.png in Resources */ = {isa = PBXBuildFile; fileRef = 01831DDA195835C900ED3BBC /* 9.png */; };
+		018BF2411954016400B2848D /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 018BF2401954016300B2848D /* MapKit.framework */; };
+		018BF2431954016A00B2848D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 018BF2421954016A00B2848D /* CoreLocation.framework */; };
+		018BF246195412DB00B2848D /* YWRecentlyVisitedPlist.plist in Resources */ = {isa = PBXBuildFile; fileRef = 018BF245195412DB00B2848D /* YWRecentlyVisitedPlist.plist */; };
+		01F713E81952B9AB0041665B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01F713E71952B9AB0041665B /* Foundation.framework */; };
+		01F713EA1952B9AB0041665B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01F713E91952B9AB0041665B /* CoreGraphics.framework */; };
+		01F713EC1952B9AB0041665B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01F713EB1952B9AB0041665B /* UIKit.framework */; };
+		01F713F21952B9AB0041665B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 01F713F01952B9AB0041665B /* InfoPlist.strings */; };
+		01F713F41952B9AB0041665B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 01F713F31952B9AB0041665B /* main.m */; };
+		01F713F81952B9AB0041665B /* YWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 01F713F71952B9AB0041665B /* YWAppDelegate.m */; };
+		01F713FB1952B9AB0041665B /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01F713F91952B9AB0041665B /* Main_iPhone.storyboard */; };
+		01F713FE1952B9AB0041665B /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01F713FC1952B9AB0041665B /* Main_iPad.storyboard */; };
+		01F714011952B9AB0041665B /* YWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01F714001952B9AB0041665B /* YWViewController.m */; };
+		01F714031952B9AB0041665B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01F714021952B9AB0041665B /* Images.xcassets */; };
+		01F714251952BB7C0041665B /* YWRootVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 01F714241952BB7C0041665B /* YWRootVC.m */; };
+		01F714291952BBDC0041665B /* YWDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01F714281952BBDC0041665B /* YWDataController.m */; };
+		01F7142D1952C1FF0041665B /* YWLocationInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 01F7142C1952C1FF0041665B /* YWLocationInfo.m */; };
+		01F714331952C5CA0041665B /* DataOperationNC.m in Sources */ = {isa = PBXBuildFile; fileRef = 01F7142F1952C5CA0041665B /* DataOperationNC.m */; };
+		01F714341952C5CA0041665B /* XMLReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 01F714321952C5CA0041665B /* XMLReader.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		01F714381952E4330041665B /* rainy-weather-wallpapers_35250_852x480.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01F714371952E4330041665B /* rainy-weather-wallpapers_35250_852x480.jpg */; };
+		01F7143A1952E4960041665B /* 07_pop_overlay.png in Resources */ = {isa = PBXBuildFile; fileRef = 01F714391952E4960041665B /* 07_pop_overlay.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		01828FB21952F0600016DFF1 /* YWForecatsCustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWForecatsCustomCell.h; sourceTree = "<group>"; };
+		01828FB31952F0600016DFF1 /* YWForecatsCustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWForecatsCustomCell.m; sourceTree = "<group>"; };
+		01828FB51952F0B00016DFF1 /* YWDayInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWDayInfo.h; sourceTree = "<group>"; };
+		01828FB61952F0B00016DFF1 /* YWDayInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWDayInfo.m; sourceTree = "<group>"; };
+		01828FB81953061D0016DFF1 /* YWDropDownController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWDropDownController.h; sourceTree = "<group>"; };
+		01828FB91953061E0016DFF1 /* YWDropDownController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWDropDownController.m; sourceTree = "<group>"; };
+		01828FBA1953061E0016DFF1 /* YWDropDownController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YWDropDownController.xib; sourceTree = "<group>"; };
+		01831D4219580D4A00ED3BBC /* bright_sun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bright_sun.png; sourceTree = "<group>"; };
+		01831D441958203500ED3BBC /* Best-Weather-Apps.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Best-Weather-Apps.png"; sourceTree = "<group>"; };
+		01831D46195820A900ED3BBC /* app_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = app_icon.png; sourceTree = "<group>"; };
+		01831D481958225500ED3BBC /* app_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app_icon@2x.png"; sourceTree = "<group>"; };
+		01831DAC195835C900ED3BBC /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		01831DAD195835C900ED3BBC /* 10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 10.png; sourceTree = "<group>"; };
+		01831DAE195835C900ED3BBC /* 11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 11.png; sourceTree = "<group>"; };
+		01831DAF195835C900ED3BBC /* 12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 12.png; sourceTree = "<group>"; };
+		01831DB0195835C900ED3BBC /* 13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 13.png; sourceTree = "<group>"; };
+		01831DB1195835C900ED3BBC /* 14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 14.png; sourceTree = "<group>"; };
+		01831DB2195835C900ED3BBC /* 15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 15.png; sourceTree = "<group>"; };
+		01831DB3195835C900ED3BBC /* 16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 16.png; sourceTree = "<group>"; };
+		01831DB4195835C900ED3BBC /* 17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 17.png; sourceTree = "<group>"; };
+		01831DB5195835C900ED3BBC /* 18.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 18.png; sourceTree = "<group>"; };
+		01831DB6195835C900ED3BBC /* 19.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 19.png; sourceTree = "<group>"; };
+		01831DB7195835C900ED3BBC /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		01831DB8195835C900ED3BBC /* 20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 20.png; sourceTree = "<group>"; };
+		01831DB9195835C900ED3BBC /* 21.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 21.png; sourceTree = "<group>"; };
+		01831DBA195835C900ED3BBC /* 22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 22.png; sourceTree = "<group>"; };
+		01831DBB195835C900ED3BBC /* 23.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 23.png; sourceTree = "<group>"; };
+		01831DBC195835C900ED3BBC /* 24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 24.png; sourceTree = "<group>"; };
+		01831DBD195835C900ED3BBC /* 25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 25.png; sourceTree = "<group>"; };
+		01831DBE195835C900ED3BBC /* 26.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 26.png; sourceTree = "<group>"; };
+		01831DBF195835C900ED3BBC /* 27.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 27.png; sourceTree = "<group>"; };
+		01831DC0195835C900ED3BBC /* 28.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 28.png; sourceTree = "<group>"; };
+		01831DC1195835C900ED3BBC /* 29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 29.png; sourceTree = "<group>"; };
+		01831DC2195835C900ED3BBC /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		01831DC3195835C900ED3BBC /* 30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 30.png; sourceTree = "<group>"; };
+		01831DC4195835C900ED3BBC /* 31.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 31.png; sourceTree = "<group>"; };
+		01831DC5195835C900ED3BBC /* 32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 32.png; sourceTree = "<group>"; };
+		01831DC6195835C900ED3BBC /* 33.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 33.png; sourceTree = "<group>"; };
+		01831DC7195835C900ED3BBC /* 34.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 34.png; sourceTree = "<group>"; };
+		01831DC8195835C900ED3BBC /* 35.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 35.png; sourceTree = "<group>"; };
+		01831DC9195835C900ED3BBC /* 36.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 36.png; sourceTree = "<group>"; };
+		01831DCA195835C900ED3BBC /* 37.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 37.png; sourceTree = "<group>"; };
+		01831DCB195835C900ED3BBC /* 38.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 38.png; sourceTree = "<group>"; };
+		01831DCC195835C900ED3BBC /* 39.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 39.png; sourceTree = "<group>"; };
+		01831DCD195835C900ED3BBC /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		01831DCE195835C900ED3BBC /* 40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 40.png; sourceTree = "<group>"; };
+		01831DCF195835C900ED3BBC /* 41.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 41.png; sourceTree = "<group>"; };
+		01831DD0195835C900ED3BBC /* 42.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 42.png; sourceTree = "<group>"; };
+		01831DD1195835C900ED3BBC /* 43.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 43.png; sourceTree = "<group>"; };
+		01831DD2195835C900ED3BBC /* 44.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 44.png; sourceTree = "<group>"; };
+		01831DD3195835C900ED3BBC /* 45.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 45.png; sourceTree = "<group>"; };
+		01831DD4195835C900ED3BBC /* 46.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 46.png; sourceTree = "<group>"; };
+		01831DD5195835C900ED3BBC /* 47.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 47.png; sourceTree = "<group>"; };
+		01831DD6195835C900ED3BBC /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
+		01831DD7195835C900ED3BBC /* 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6.png; sourceTree = "<group>"; };
+		01831DD8195835C900ED3BBC /* 7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 7.png; sourceTree = "<group>"; };
+		01831DD9195835C900ED3BBC /* 8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 8.png; sourceTree = "<group>"; };
+		01831DDA195835C900ED3BBC /* 9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 9.png; sourceTree = "<group>"; };
+		018BF2401954016300B2848D /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		018BF2421954016A00B2848D /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		018BF245195412DB00B2848D /* YWRecentlyVisitedPlist.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = YWRecentlyVisitedPlist.plist; sourceTree = "<group>"; };
+		01F713E41952B9AA0041665B /* YahooWeather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YahooWeather.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		01F713E71952B9AB0041665B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		01F713E91952B9AB0041665B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		01F713EB1952B9AB0041665B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		01F713EF1952B9AB0041665B /* YahooWeather-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YahooWeather-Info.plist"; sourceTree = "<group>"; };
+		01F713F11952B9AB0041665B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		01F713F31952B9AB0041665B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		01F713F51952B9AB0041665B /* YahooWeather-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YahooWeather-Prefix.pch"; sourceTree = "<group>"; };
+		01F713F61952B9AB0041665B /* YWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YWAppDelegate.h; sourceTree = "<group>"; };
+		01F713F71952B9AB0041665B /* YWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YWAppDelegate.m; sourceTree = "<group>"; };
+		01F713FA1952B9AB0041665B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		01F713FD1952B9AB0041665B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		01F713FF1952B9AB0041665B /* YWViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YWViewController.h; sourceTree = "<group>"; };
+		01F714001952B9AB0041665B /* YWViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YWViewController.m; sourceTree = "<group>"; };
+		01F714021952B9AB0041665B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		01F714091952B9AB0041665B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		01F714231952BB7C0041665B /* YWRootVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWRootVC.h; sourceTree = "<group>"; };
+		01F714241952BB7C0041665B /* YWRootVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWRootVC.m; sourceTree = "<group>"; };
+		01F714271952BBDC0041665B /* YWDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWDataController.h; sourceTree = "<group>"; };
+		01F714281952BBDC0041665B /* YWDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWDataController.m; sourceTree = "<group>"; };
+		01F7142B1952C1FF0041665B /* YWLocationInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWLocationInfo.h; sourceTree = "<group>"; };
+		01F7142C1952C1FF0041665B /* YWLocationInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWLocationInfo.m; sourceTree = "<group>"; };
+		01F7142E1952C5CA0041665B /* DataOperationNC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataOperationNC.h; sourceTree = "<group>"; };
+		01F7142F1952C5CA0041665B /* DataOperationNC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataOperationNC.m; sourceTree = "<group>"; };
+		01F714311952C5CA0041665B /* XMLReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLReader.h; sourceTree = "<group>"; };
+		01F714321952C5CA0041665B /* XMLReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLReader.m; sourceTree = "<group>"; };
+		01F714371952E4330041665B /* rainy-weather-wallpapers_35250_852x480.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "rainy-weather-wallpapers_35250_852x480.jpg"; sourceTree = "<group>"; };
+		01F714391952E4960041665B /* 07_pop_overlay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 07_pop_overlay.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01F713E11952B9AA0041665B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				018BF2431954016A00B2848D /* CoreLocation.framework in Frameworks */,
+				018BF2411954016400B2848D /* MapKit.framework in Frameworks */,
+				01F713EA1952B9AB0041665B /* CoreGraphics.framework in Frameworks */,
+				01F713EC1952B9AB0041665B /* UIKit.framework in Frameworks */,
+				01F713E81952B9AB0041665B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01831DAB195835C900ED3BBC /* weather_Images */ = {
+			isa = PBXGroup;
+			children = (
+				01831DAC195835C900ED3BBC /* 1.png */,
+				01831DAD195835C900ED3BBC /* 10.png */,
+				01831DAE195835C900ED3BBC /* 11.png */,
+				01831DAF195835C900ED3BBC /* 12.png */,
+				01831DB0195835C900ED3BBC /* 13.png */,
+				01831DB1195835C900ED3BBC /* 14.png */,
+				01831DB2195835C900ED3BBC /* 15.png */,
+				01831DB3195835C900ED3BBC /* 16.png */,
+				01831DB4195835C900ED3BBC /* 17.png */,
+				01831DB5195835C900ED3BBC /* 18.png */,
+				01831DB6195835C900ED3BBC /* 19.png */,
+				01831DB7195835C900ED3BBC /* 2.png */,
+				01831DB8195835C900ED3BBC /* 20.png */,
+				01831DB9195835C900ED3BBC /* 21.png */,
+				01831DBA195835C900ED3BBC /* 22.png */,
+				01831DBB195835C900ED3BBC /* 23.png */,
+				01831DBC195835C900ED3BBC /* 24.png */,
+				01831DBD195835C900ED3BBC /* 25.png */,
+				01831DBE195835C900ED3BBC /* 26.png */,
+				01831DBF195835C900ED3BBC /* 27.png */,
+				01831DC0195835C900ED3BBC /* 28.png */,
+				01831DC1195835C900ED3BBC /* 29.png */,
+				01831DC2195835C900ED3BBC /* 3.png */,
+				01831DC3195835C900ED3BBC /* 30.png */,
+				01831DC4195835C900ED3BBC /* 31.png */,
+				01831DC5195835C900ED3BBC /* 32.png */,
+				01831DC6195835C900ED3BBC /* 33.png */,
+				01831DC7195835C900ED3BBC /* 34.png */,
+				01831DC8195835C900ED3BBC /* 35.png */,
+				01831DC9195835C900ED3BBC /* 36.png */,
+				01831DCA195835C900ED3BBC /* 37.png */,
+				01831DCB195835C900ED3BBC /* 38.png */,
+				01831DCC195835C900ED3BBC /* 39.png */,
+				01831DCD195835C900ED3BBC /* 4.png */,
+				01831DCE195835C900ED3BBC /* 40.png */,
+				01831DCF195835C900ED3BBC /* 41.png */,
+				01831DD0195835C900ED3BBC /* 42.png */,
+				01831DD1195835C900ED3BBC /* 43.png */,
+				01831DD2195835C900ED3BBC /* 44.png */,
+				01831DD3195835C900ED3BBC /* 45.png */,
+				01831DD4195835C900ED3BBC /* 46.png */,
+				01831DD5195835C900ED3BBC /* 47.png */,
+				01831DD6195835C900ED3BBC /* 5.png */,
+				01831DD7195835C900ED3BBC /* 6.png */,
+				01831DD8195835C900ED3BBC /* 7.png */,
+				01831DD9195835C900ED3BBC /* 8.png */,
+				01831DDA195835C900ED3BBC /* 9.png */,
+			);
+			path = weather_Images;
+			sourceTree = "<group>";
+		};
+		018BF244195412B500B2848D /* Plist */ = {
+			isa = PBXGroup;
+			children = (
+				018BF245195412DB00B2848D /* YWRecentlyVisitedPlist.plist */,
+			);
+			path = Plist;
+			sourceTree = "<group>";
+		};
+		01F713DB1952B9A90041665B = {
+			isa = PBXGroup;
+			children = (
+				01F713ED1952B9AB0041665B /* YahooWeather */,
+				01F713E61952B9AA0041665B /* Frameworks */,
+				01F713E51952B9AA0041665B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		01F713E51952B9AA0041665B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				01F713E41952B9AA0041665B /* YahooWeather.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		01F713E61952B9AA0041665B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				018BF2421954016A00B2848D /* CoreLocation.framework */,
+				018BF2401954016300B2848D /* MapKit.framework */,
+				01F713E71952B9AB0041665B /* Foundation.framework */,
+				01F713E91952B9AB0041665B /* CoreGraphics.framework */,
+				01F713EB1952B9AB0041665B /* UIKit.framework */,
+				01F714091952B9AB0041665B /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		01F713ED1952B9AB0041665B /* YahooWeather */ = {
+			isa = PBXGroup;
+			children = (
+				01F714261952BBC60041665B /* DataController */,
+				01F7141F1952BAF20041665B /* RootViewController */,
+				01F713F61952B9AB0041665B /* YWAppDelegate.h */,
+				01F713F71952B9AB0041665B /* YWAppDelegate.m */,
+				01F713F91952B9AB0041665B /* Main_iPhone.storyboard */,
+				01F713FC1952B9AB0041665B /* Main_iPad.storyboard */,
+				01F713FF1952B9AB0041665B /* YWViewController.h */,
+				01F714001952B9AB0041665B /* YWViewController.m */,
+				01F714021952B9AB0041665B /* Images.xcassets */,
+				01F714351952E4270041665B /* Resources */,
+				01F713EE1952B9AB0041665B /* Supporting Files */,
+			);
+			path = YahooWeather;
+			sourceTree = "<group>";
+		};
+		01F713EE1952B9AB0041665B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				01F713EF1952B9AB0041665B /* YahooWeather-Info.plist */,
+				01F713F01952B9AB0041665B /* InfoPlist.strings */,
+				01F713F31952B9AB0041665B /* main.m */,
+				01F713F51952B9AB0041665B /* YahooWeather-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		01F7141F1952BAF20041665B /* RootViewController */ = {
+			isa = PBXGroup;
+			children = (
+				01F714231952BB7C0041665B /* YWRootVC.h */,
+				01F714241952BB7C0041665B /* YWRootVC.m */,
+				01828FB21952F0600016DFF1 /* YWForecatsCustomCell.h */,
+				01828FB31952F0600016DFF1 /* YWForecatsCustomCell.m */,
+				01828FB81953061D0016DFF1 /* YWDropDownController.h */,
+				01828FB91953061E0016DFF1 /* YWDropDownController.m */,
+				01828FBA1953061E0016DFF1 /* YWDropDownController.xib */,
+			);
+			path = RootViewController;
+			sourceTree = "<group>";
+		};
+		01F714261952BBC60041665B /* DataController */ = {
+			isa = PBXGroup;
+			children = (
+				01F714301952C5CA0041665B /* XMLReader */,
+				01F7142A1952C1EC0041665B /* DataModel */,
+				01F7142E1952C5CA0041665B /* DataOperationNC.h */,
+				01F7142F1952C5CA0041665B /* DataOperationNC.m */,
+				01F714271952BBDC0041665B /* YWDataController.h */,
+				01F714281952BBDC0041665B /* YWDataController.m */,
+			);
+			path = DataController;
+			sourceTree = "<group>";
+		};
+		01F7142A1952C1EC0041665B /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				01F7142B1952C1FF0041665B /* YWLocationInfo.h */,
+				01F7142C1952C1FF0041665B /* YWLocationInfo.m */,
+				01828FB51952F0B00016DFF1 /* YWDayInfo.h */,
+				01828FB61952F0B00016DFF1 /* YWDayInfo.m */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+		01F714301952C5CA0041665B /* XMLReader */ = {
+			isa = PBXGroup;
+			children = (
+				01F714311952C5CA0041665B /* XMLReader.h */,
+				01F714321952C5CA0041665B /* XMLReader.m */,
+			);
+			path = XMLReader;
+			sourceTree = "<group>";
+		};
+		01F714351952E4270041665B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				018BF244195412B500B2848D /* Plist */,
+				01F714361952E4270041665B /* Images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		01F714361952E4270041665B /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				01831DAB195835C900ED3BBC /* weather_Images */,
+				01831D46195820A900ED3BBC /* app_icon.png */,
+				01831D481958225500ED3BBC /* app_icon@2x.png */,
+				01831D441958203500ED3BBC /* Best-Weather-Apps.png */,
+				01831D4219580D4A00ED3BBC /* bright_sun.png */,
+				01F714391952E4960041665B /* 07_pop_overlay.png */,
+				01F714371952E4330041665B /* rainy-weather-wallpapers_35250_852x480.jpg */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		01F713E31952B9AA0041665B /* YahooWeather */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01F714191952B9AC0041665B /* Build configuration list for PBXNativeTarget "YahooWeather" */;
+			buildPhases = (
+				01F713E01952B9AA0041665B /* Sources */,
+				01F713E11952B9AA0041665B /* Frameworks */,
+				01F713E21952B9AA0041665B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YahooWeather;
+			productName = YahooWeather;
+			productReference = 01F713E41952B9AA0041665B /* YahooWeather.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		01F713DC1952B9A90041665B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = YW;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Adnure, Jay (external - Project)";
+			};
+			buildConfigurationList = 01F713DF1952B9A90041665B /* Build configuration list for PBXProject "YahooWeather" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 01F713DB1952B9A90041665B;
+			productRefGroup = 01F713E51952B9AA0041665B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01F713E31952B9AA0041665B /* YahooWeather */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		01F713E21952B9AA0041665B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01831DF6195835C900ED3BBC /* 34.png in Resources */,
+				01831DE8195835C900ED3BBC /* 21.png in Resources */,
+				01831DE2195835C900ED3BBC /* 16.png in Resources */,
+				01831DEE195835C900ED3BBC /* 27.png in Resources */,
+				01831DE3195835C900ED3BBC /* 17.png in Resources */,
+				01831DFD195835C900ED3BBC /* 40.png in Resources */,
+				01831DF2195835C900ED3BBC /* 30.png in Resources */,
+				018BF246195412DB00B2848D /* YWRecentlyVisitedPlist.plist in Resources */,
+				01831DF1195835C900ED3BBC /* 3.png in Resources */,
+				01831DF9195835C900ED3BBC /* 37.png in Resources */,
+				01831E04195835C900ED3BBC /* 47.png in Resources */,
+				01831E05195835C900ED3BBC /* 5.png in Resources */,
+				01831E00195835C900ED3BBC /* 43.png in Resources */,
+				01831D491958225500ED3BBC /* app_icon@2x.png in Resources */,
+				01831E06195835C900ED3BBC /* 6.png in Resources */,
+				01831DE5195835C900ED3BBC /* 19.png in Resources */,
+				01831DE7195835C900ED3BBC /* 20.png in Resources */,
+				01831DFF195835C900ED3BBC /* 42.png in Resources */,
+				01831E07195835C900ED3BBC /* 7.png in Resources */,
+				01831D4319580D4A00ED3BBC /* bright_sun.png in Resources */,
+				01F713FE1952B9AB0041665B /* Main_iPad.storyboard in Resources */,
+				01828FBC1953061E0016DFF1 /* YWDropDownController.xib in Resources */,
+				01831DF5195835C900ED3BBC /* 33.png in Resources */,
+				01831DEC195835C900ED3BBC /* 25.png in Resources */,
+				01831DF8195835C900ED3BBC /* 36.png in Resources */,
+				01831E09195835C900ED3BBC /* 9.png in Resources */,
+				01831DFC195835C900ED3BBC /* 4.png in Resources */,
+				01831DDB195835C900ED3BBC /* 1.png in Resources */,
+				01F714031952B9AB0041665B /* Images.xcassets in Resources */,
+				01831D47195820A900ED3BBC /* app_icon.png in Resources */,
+				01831DDC195835C900ED3BBC /* 10.png in Resources */,
+				01831E02195835C900ED3BBC /* 45.png in Resources */,
+				01F713FB1952B9AB0041665B /* Main_iPhone.storyboard in Resources */,
+				01831DE4195835C900ED3BBC /* 18.png in Resources */,
+				01831DF7195835C900ED3BBC /* 35.png in Resources */,
+				01831DE9195835C900ED3BBC /* 22.png in Resources */,
+				01831E03195835C900ED3BBC /* 46.png in Resources */,
+				01831DEB195835C900ED3BBC /* 24.png in Resources */,
+				01831DF0195835C900ED3BBC /* 29.png in Resources */,
+				01831DE1195835C900ED3BBC /* 15.png in Resources */,
+				01831DE0195835C900ED3BBC /* 14.png in Resources */,
+				01831E01195835C900ED3BBC /* 44.png in Resources */,
+				01831DEF195835C900ED3BBC /* 28.png in Resources */,
+				01831DDD195835C900ED3BBC /* 11.png in Resources */,
+				01831DFA195835C900ED3BBC /* 38.png in Resources */,
+				01831DF3195835C900ED3BBC /* 31.png in Resources */,
+				01831DF4195835C900ED3BBC /* 32.png in Resources */,
+				01831D451958203500ED3BBC /* Best-Weather-Apps.png in Resources */,
+				01831DE6195835C900ED3BBC /* 2.png in Resources */,
+				01831DDE195835C900ED3BBC /* 12.png in Resources */,
+				01831DDF195835C900ED3BBC /* 13.png in Resources */,
+				01F714381952E4330041665B /* rainy-weather-wallpapers_35250_852x480.jpg in Resources */,
+				01831DFB195835C900ED3BBC /* 39.png in Resources */,
+				01F713F21952B9AB0041665B /* InfoPlist.strings in Resources */,
+				01831DEA195835C900ED3BBC /* 23.png in Resources */,
+				01831DED195835C900ED3BBC /* 26.png in Resources */,
+				01831DFE195835C900ED3BBC /* 41.png in Resources */,
+				01831E08195835C900ED3BBC /* 8.png in Resources */,
+				01F7143A1952E4960041665B /* 07_pop_overlay.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01F713E01952B9AA0041665B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01F714291952BBDC0041665B /* YWDataController.m in Sources */,
+				01F714011952B9AB0041665B /* YWViewController.m in Sources */,
+				01828FBB1953061E0016DFF1 /* YWDropDownController.m in Sources */,
+				01F714341952C5CA0041665B /* XMLReader.m in Sources */,
+				01F7142D1952C1FF0041665B /* YWLocationInfo.m in Sources */,
+				01F713F81952B9AB0041665B /* YWAppDelegate.m in Sources */,
+				01F714331952C5CA0041665B /* DataOperationNC.m in Sources */,
+				01828FB71952F0B00016DFF1 /* YWDayInfo.m in Sources */,
+				01828FB41952F0600016DFF1 /* YWForecatsCustomCell.m in Sources */,
+				01F714251952BB7C0041665B /* YWRootVC.m in Sources */,
+				01F713F41952B9AB0041665B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		01F713F01952B9AB0041665B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01F713F11952B9AB0041665B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		01F713F91952B9AB0041665B /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01F713FA1952B9AB0041665B /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		01F713FC1952B9AB0041665B /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01F713FD1952B9AB0041665B /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		01F714171952B9AC0041665B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = YahooWeather;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		01F714181952B9AC0041665B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = YahooWeather;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		01F7141A1952B9AC0041665B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YahooWeather/YahooWeather-Prefix.pch";
+				INFOPLIST_FILE = "YahooWeather/YahooWeather-Info.plist";
+				PRODUCT_NAME = YahooWeather;
+				TARGETED_DEVICE_FAMILY = 2;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		01F7141B1952B9AC0041665B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YahooWeather/YahooWeather-Prefix.pch";
+				INFOPLIST_FILE = "YahooWeather/YahooWeather-Info.plist";
+				PRODUCT_NAME = YahooWeather;
+				TARGETED_DEVICE_FAMILY = 2;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01F713DF1952B9A90041665B /* Build configuration list for PBXProject "YahooWeather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01F714171952B9AC0041665B /* Debug */,
+				01F714181952B9AC0041665B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01F714191952B9AC0041665B /* Build configuration list for PBXNativeTarget "YahooWeather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01F7141A1952B9AC0041665B /* Debug */,
+				01F7141B1952B9AC0041665B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 01F713DC1952B9A90041665B /* Project object */;
+}
